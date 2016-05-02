@@ -18,3 +18,37 @@ Overview of steps taken...
 9. Folder cleanup... research & development mess, trial & error file messes.
 10. Researched GitHub repo add process, then Documentation and Review 
 
+Application Experience
+======================
+1. Go to the Membership private website 
+   - http://defaulthost/reglogin/source/index.html
+
+2. Click Register
+   - http://defaulthost/reglogin/source/register.php
+
+3. Enter required fields, and click submit
+   - (tesing note) Need to fix email sending process
+   - check in MySQL db for confirmation code
+     - login to scotch-box vagrant virtual box and go to the MySQL commandline
+     - type SHOW DATABASES;
+     - type USE museum;
+     - type SELECT * from fgusers3;
+     - find the new registered user record and enter the confirmation code into
+       the confirmation code field on the confirmation page... 
+       'http://defaulthost/reglogin/source/confirmreg.php' and click submit.
+
+4. The thank you for registering page displays...
+   - 'http://defaulthost/reglogin/source/thank-you-regd.html'
+
+5. Click the 'Click here for login' link.
+   - This takes you to the Login page'http://defaulthost/reglogin/source/login.php' 
+
+6. Enter the login and password and click Submit.
+   - This directs you to the Welcome Home Page...
+    'http://defaulthost/reglogin/source/login-home.php'
+
+7. Click on the 'Museum Experience Journal' link...
+   - 'http://defaulthost/museum-notes/index.html'
+
+8. Begin taking notes!
+
