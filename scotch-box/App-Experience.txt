@@ -1,0 +1,43 @@
+
+Assessment Project
+==================
+Project: Note Application
+Developed by: Edwin Hopper
+Date:   4/30/2016 - 5/1/2016
+
+Application Experience
+======================
+1. Go to the Membership website
+   - http://192.168.33.10/reglogin/source/index.html
+
+2. Click Register
+   - http://192.168.33.10/reglogin/source/register.php
+
+3. Enter required fields, and click submit
+   - (tesing note) Need to fix email sending process
+   - check in MySQL db for confirmation code
+     - login to scotch-box vagrant virtual box and go to the MySQL commandline
+     - type SHOW DATABASES;
+     - type USE museum
+     - type SELECT * from fgusers3;
+     - find the new registered user record and enter the confirmation code into
+       the confirmation code field on the confirmation page... 
+       'http://192.168.33.10/reglogin/source/confirmreg.php' and click submit.
+
+4. The thank you for registering page displays...
+   - 'http://192.168.33.10/reglogin/source/thank-you-regd.html'
+
+5. Click the 'Click here for login' link.
+   - This takes you to the Login page'http://192.168.33.10/reglogin/source/login.php' 
+
+6. Enter the login and password and click Submit.
+   - This directs you to the Welcome Home Page...
+    'http://192.168.33.10/reglogin/source/login-home.php'
+
+7. Click on the 'Museum Experience Journal' link...
+   - 'http://192.168.33.10/museum-notes/index.html'
+
+8. Begin taking notes!
+
+
+
