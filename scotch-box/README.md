@@ -36,12 +36,12 @@ of them in a weekend; we would just like to see how quickly you can pick them up
 PDF Ojectives:
 
 The web application will allow users to create, read, update and delete notes. Notes consist
-of a ìtitleî, ìdescriptionî, ìcreated atî date and if the note has been updated, an ìupdated
-atî date. A user might accidentally delete a note so create the ability to restore a deleted
+of a ‚Äútitle‚Äù, ‚Äúdescription‚Äù, ‚Äúcreated at‚Äù date and if the note has been updated, an ‚Äúupdated
+at‚Äù date. A user might accidentally delete a note so create the ability to restore a deleted
 note.
 Since some of these notes may be of personal nature, a user will be required to login prior to
 viewing any notes. Allow a new user to sign up and create a new account. Notes should be
-persisted to the userís account. Keep in mind that the user will need to access their account
+persisted to the user‚Äôs account. Keep in mind that the user will need to access their account
 from various devices.
 A user may also want to share a note with another registered user. Build in the functionality
 to allow a user to share a note with other users and have that note included in their note list.
@@ -158,4 +158,4 @@ Additional Comments:
   project.  I look forward to having an opportunity to explain more about this project and 
   more about what I can offer to the Museum of the Bible from my professional career experience.
 
- 
+
